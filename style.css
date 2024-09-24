@@ -1,0 +1,123 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.logo-image{
+    display: block;
+    margin: auto;
+    width:200px;
+    height:60px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+p {
+    font-family: Georgia,'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:15px;
+    margin-top:0px;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.countdown-box {
+    margin: 20px;
+    text-align: center;
+}
+
+.countdown-time {
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 45px;
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.countdown-label {
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #af8e63;
+    border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #d4ad79;
+    color: white;
+}
+
+.fa-instagram {
+    background: #d4ad79;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        width: 120px; /* mobil */
+    }
+
+    h1 {
+        font-size: 30px; 
+        margin-top: 30px; 
+    }
+
+    p {
+        font-size: 12px; 
+        margin-top: 10px; 
+    }
+
+    .countdown-container {
+        display:flex;
+    }
+
+    .countdown-box {
+        margin: 10px; 
+    }
+
+    .countdown-time {
+        font-size: 30px;
+        padding: 15px; 
+    }
+
+    .countdown-label {
+        font-size: 14px; 
+    }
+}
